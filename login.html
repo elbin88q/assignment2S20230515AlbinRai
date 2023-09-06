@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+<style>
+body{
+    font: 1em Segoe UI;
+}
+.new{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+    .contactleft h1{
+    color: #fd8905;
+    
+    }
+    .contain{
+    width: 50%;
+    margin: 50px auto;
+}
+.contactright h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.contain p{
+    color:hsl(0, 0%, 100%);
+}
+
+.contactbox .contactleft h3{
+    color: #fd8905;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.contactbox{
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+.contactleft{
+    flex-basis: 50%;
+    padding: 40px 60px;
+}
+.contactleft p{
+    color:#fd8905;
+}
+.contactright{
+  text-align: center;
+    flex-basis: 50%;
+    padding: 40px;
+    background-color: rgb(255, 147, 6);
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fd8905;
+    outline: none;
+    padding-bottom: 5px;
+}
+.inp input{
+    position: relative;
+    bottom: 25px;
+
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    display: block;
+    color: #fd8905;
+}
+form button{
+margin-left: 0%;
+
+    width: 100px;
+    height: 50px;
+    outline: none;
+    background: hsl(32, 98%, 51%);
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+form button:hover{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+  
+button{
+    float: left;
+margin-left: 50px;
+
+    width: 100px;
+    height: 50px;
+    outline: none;
+    background: hsl(32, 98%, 51%);
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+  
+.contactright button{
+
+margin-left: 70px;
+color: hsl(32, 98%, 51%);
+background: white;
+font-weight: bold;
+    width: 200px;
+    height: 60px;
+    outline: none;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.log{
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    color: hsl(32, 98%, 51%);
+
+}
+.log:hover{
+    background-color: hsl(32, 98%, 51%);
+    color: white;
+}
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: auto;
+    padding: 10px;
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: auto;
+
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">        <imG src="pictures/LOGO.png" width="150px">
+        </div>
+  
+
+</header>
+    <div class="contain">
+        <div class="contactbox">
+        <div class="contactleft">
+        <h1>Login to continue</h1>
+       
+        <form>
+          
+           
+            <div class="input-group">
+              <label>Email:</label>
+              <input type="email" required>
+            </div>
+            
+          
+         <div class="input-group">
+              <label>Password:</label>
+              <input type="Password">
+            </div>
+         <p>Don't have an account, <a class="new" href="newaccount">Create one.</a></p>   
+          <button type="submit">Login</button>
+        </form>
+        <a href="index.html"><button>Back</button></a>
+
+    
+      </div>
+      
+        <div class="contactright"> 
+         <h1>Or, continue with </h1>
+
+         <a href="https://www.google.com"><button class="log">Google</button></a><br>
+         <a href="https://www.facebook.com"><button class="log">Facebook</button></a><br>
+          
+      
+      </div>
+      </div>
+      </div>
+      
+    
+</body>
+</html>
